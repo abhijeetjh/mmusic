@@ -1,0 +1,93 @@
+body{
+    background-color: #9A69FE;
+    align-content: center;
+    text-align: center;
+    font-size: larger;
+    color: #E5ECF4;
+}
+
+nav{
+    font-size: 20px;
+    align-content: center;
+    position: fixed;
+    right: 0px;
+    text-decoration: none;
+}
+
+a{
+    margin-right: 30px;
+}
+
+#scroll{
+    position: fixed;
+    bottom: 2%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.p2r2{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.p2img{
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 5s;
+}
+
+@keyframes run{
+    0% {transform: translateX(-400%);}
+    100% {transform: translateX(400%);}
+}
+
+#pg2img2{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+}
+
+.p2img2{
+    background-color: #C3BEF7;
+    border-radius: 15px;
+}
+
+#pg3img{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#testimonials{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonial{
+    background-color: #C3BEF7;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.form{
+    padding: 10px;
+    row-gap: 20px;
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+    text-align: left;
+}
+
+.form button{
+    background-color: #D4D5F6;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+}
